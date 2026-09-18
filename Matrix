@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main()
+{
+    
+    int arr[3][3];
+    arr[0][0]=20;
+    arr[0][1]=30;
+    arr[0][2]=40;
+    
+    arr[1][0]=20;
+    arr[1][1]=30;
+    arr[1][2]=40;
+    
+    arr[2][0]=20;
+    arr[2][1]=30;
+    arr[2][2]=40;
+    
+    printf(" %d",arr[0][0]);
+    printf(" %d",arr[0][1]);
+    printf(" %d",arr[0][2]);
+    
+    printf(" \n %d",arr[1][0]);
+    printf(" %d",arr[1][1]);
+    printf(" %d",arr[1][2]);
+    
+    printf(" \n %d",arr[2][0]);
+    printf(" %d",arr[2][1]);
+    printf(" %d",arr[2][2]);
+    
