@@ -1,0 +1,17 @@
+#include <stdio.h>
+void main()
+{
+    int sum=0;
+    int arr[]={13,14,15,16,17,18};
+    int len=sizeof(arr)/sizeof(arr[1]);
+    for(int i=0;i<len;i++)
+    {
+        if (arr[i]%2==0)
+        {
+            sum=sum+arr[i];
+            printf("Even element:%d\n",arr[i]);
+        }
+    }
+    printf("\nSum of evens:%d",sum);
+    
+}
